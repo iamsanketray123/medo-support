@@ -1,0 +1,59 @@
+TERMS AND CONDITIONS
+Last updated: March 2026
+
+Please read these Terms and Conditions carefully before using Medo.
+
+1. ACCEPTANCE OF TERMS
+By downloading, installing, or using Medo ("the App"), you agree to be bound by these Terms. If you do not agree to these Terms, do not use the App.
+
+2. IMPORTANT MEDICAL DISCLAIMER
+Medo DOES NOT PROVIDE MEDICAL ADVICE, DIAGNOSIS, OR TREATMENT.
+• The App is designed as a personal reminder, schedule organizer, and record-keeping tool.
+• Information provided within the App (including medication lookup catalogs, dosage suggestions, and adherence analytics) is for educational and informational purposes only.
+• Always consult a licensed physician, pharmacist, or qualified healthcare provider regarding your medications, dosages, side effects, or medical conditions.
+• Never disregard professional medical advice or delay seeking treatment because of information presented in or omitted by the App.
+• Do not rely exclusively on Medo for life-critical medication schedules. Device battery depletion, operating system updates, or notification permissions may disrupt reminder delivery.
+• IN THE EVENT OF A MEDICAL EMERGENCY, CALL EMERGENCY SERVICES (911 IN THE US OR YOUR LOCAL EMERGENCY NUMBER) IMMEDIATELY.
+
+3. SERVICE DESCRIPTION
+Medo provides medication scheduling, intake logging, treatment management, adherence tracking, caregiver coordination, and related health organization tools. We reserve the right to update, modify, or discontinue features at any time without notice.
+
+4. USER RESPONSIBILITIES
+You agree to:
+• Provide accurate medication names, dosages, schedules, and profile details
+• Verify that scheduled reminders align with your healthcare provider's instructions
+• Maintain necessary device permissions (such as notifications) to receive alerts
+• Use the App in compliance with applicable laws and regulations
+• Not reverse engineer, decompile, or attempt to extract the source code of the App
+
+5. SUBSCRIPTIONS & IN-APP PURCHASES
+• Core features of Medo (active medication tracking, basic reminders, and care logs) are free.
+• Medo Pro is offered as an auto-renewing subscription (e.g., monthly, yearly) or lifetime purchase.
+• Payment is charged to your Apple ID account upon purchase confirmation.
+• Subscriptions automatically renew unless auto-renew is turned off at least 24 hours before the end of the current billing period.
+• Your account will be charged for renewal within 24 hours prior to the end of the current period at the rate of the selected plan.
+• You can manage or cancel your subscription at any time in your iPhone Settings (Apple ID → Subscriptions).
+• Deleting the App does NOT automatically cancel your active subscription.
+
+6. FREE TRIALS
+• Any free trial period offered will automatically transition into a paid subscription unless canceled at least 24 hours before the trial expires.
+• Any unused portion of a free trial period, if offered, will be forfeited when purchasing a subscription.
+
+7. INTELLECTUAL PROPERTY
+All content, design, trademarks, software code, and user interface elements in Medo are the intellectual property of Medo and protected by applicable copyright and trademark laws.
+
+8. LIMITATION OF LIABILITY
+To the maximum extent permitted by applicable law:
+• Medo and its developers shall not be liable for missed doses, incorrect self-administration, adverse drug reactions, health complications, lost records, or any indirect, incidental, special, or consequential damages.
+• You use the App and its reminders at your sole discretion and risk.
+
+9. TERMINATION
+We may suspend or terminate your access to the App at any time without notice if you violate these Terms.
+
+10. GOVERNING LAW
+These Terms shall be governed by and construed in accordance with applicable laws, without giving effect to any principles of conflicts of law.
+
+11. CONTACT
+If you have questions or concerns regarding these Terms:
+Email: iamsanketray123@gmail.com
+Website: https://getdosey.app

@@ -1,0 +1,116 @@
+PRIVACY POLICY
+Last updated: September 2026
+
+Thank you for choosing Medo ("we", "us", or "our"). Your privacy is fundamental to our mission. Medo is designed to help you track medications, manage treatments, and coordinate family care while keeping your personal and health records private and secure.
+
+If you have any questions, contact us at: iamsanketray123@gmail.com
+
+1. INFORMATION WE COLLECT
+We prioritize on-device data storage and data minimization. We collect only the information necessary to provide and improve the app experience.
+
+Information You Provide
+• Medications, prescription details, dosages, and schedules
+• Dose logs (taken, skipped, snoozed), symptoms, and health journal notes
+• Care profile names, avatars, and caregiver contact details
+• Custom reminder settings, quiet hours, and notification preferences
+
+Automatically Collected Information
+• Device model, hardware specifications, and screen resolution
+• Operating system version
+• Basic app performance and diagnostic logs stored locally in memory
+• Anonymous product-usage events (see “Usage Analytics” below), unless you turn them off
+
+This technical information does not directly identify you and is not linked to your identity.
+
+App Permissions
+We may request access to certain device capabilities:
+• Notifications & Critical Alerts: To alert you when it is time to take your scheduled medications.
+• Apple Health (HealthKit): If enabled by you, to synchronize medication doses and health measurements. Health data remains on your device and inside Apple Health.
+• Camera: If you use the medication label or prescription scanner, images are processed locally on-device to read text. Images are never uploaded.
+• Face ID / Touch ID: To protect access to your medication records if biometric lock is enabled.
+
+You can review and modify app permissions at any time in your device Settings.
+
+We do NOT collect:
+• Third-party advertising identifiers (IDFA)
+• Data from third-party data brokers or marketing partners
+• Precise GPS location or location tracking data
+• Photos or videos outside of on-device label parsing
+
+2. THIRD-PARTY SERVICES & PLATFORM INTEGRATIONS
+Medo does not use third-party advertising trackers and does not record your screen. Platform integrations include the services described below:
+
+Usage Analytics (PostHog)
+Medo uses PostHog to understand which features are used and where the app fails, so we can improve it. Events are anonymous (a random install identifier, not your name or Apple ID) and describe actions such as “dose logged”, “schedule created” or “purchase completed” together with non-identifying context like medication form, hour of day and app version. They never include medication names, dosages, health values, notes, care-recipient names or caregiver contact details. Session recording and screen capture are disabled. You can turn usage analytics off at any time in Settings → Data, Sync & Privacy; the switch takes effect immediately.
+
+Firebase (Google)
+Medo uses Firebase Cloud Functions with Firebase App Check to verify that network requests originate from a genuine copy of the app. Firebase receives an app-integrity token and a random per-install identifier; it does not receive your identity or your health records.
+
+Medication Reference Lookups (openFDA)
+When you add a medicine, Medo may look up the typed medication name against the U.S. FDA’s public openFDA database to suggest active ingredients and safety information. Only the medication name you typed is sent; no profile, dose history or device identifier accompanies it.
+
+Apple App Store & StoreKit
+In-app purchases and Medo Pro subscriptions are processed securely by Apple. Medo receives only transaction confirmation and entitlement status; we never receive or store your payment card details. Apple's privacy policy is available at apple.com/legal/privacy.
+
+Apple iCloud (CloudKit)
+If you enable iCloud Sync, your medication records, treatments, and profiles are stored in your personal, private iCloud database. Data is encrypted in transit and at rest by Apple. We do not have access to your private iCloud container or encryption keys.
+
+Apple HealthKit
+If you grant permission, Medo communicates directly with HealthKit on your device. Medo does not transmit HealthKit data to external servers or third parties.
+
+On-Device Machine Learning
+When scanning medication labels or pill bottles, optical character recognition runs on-device using Apple's Vision framework. The scan image remains on the device and is never uploaded.
+
+3. HOW WE USE YOUR INFORMATION
+We use collected data solely to:
+• Schedule and deliver timely medication reminders
+• Maintain treatment timelines, adherence statistics, and refill forecasts
+• Generate clinical reports and summaries that you choose to export
+• Ensure on-device reliability and app performance
+
+We do NOT use your data for:
+• Selling, renting, or leasing to third parties
+• Targeted advertising or tracking across other apps and websites
+• Sharing with insurance companies, employers, or pharmaceutical marketers
+
+4. DATA SHARING & EXPORTS
+We do not sell, rent, or trade your personal or health information.
+
+Your data is shared only when explicitly initiated by you:
+• Clinical PDF & CSV Exports: You can generate and share clinical reports with your healthcare provider via the standard iOS share sheet.
+• JSON Backup & Restore: You can export a backup of your records to store or transfer. You can protect a backup with a password (AES-GCM encryption on your device); without a password the file is readable by anyone who has it. Photos and attachments are left out unless you choose to include them. Before a backup is restored, Medo saves a safety copy of your current data in the app’s private storage (the latest three are kept, and “Delete all data” removes them).
+• Family & Caregiver Sharing: If you choose to share care updates with a caregiver, notifications and summaries are sent only to the contacts you designate. Shared care plans are delivered through your private iCloud (CloudKit sharing); the caregiver sees only the profiles you share and can be removed at any time.
+• Legal Obligations: We may disclose limited information only if required by applicable law or a valid court order.
+
+5. DATA RETENTION & DELETION
+Your data is stored locally on your device and, if enabled, in your private iCloud storage for as long as you use the app.
+
+You have complete control over your data:
+• You can delete individual medications, logs, or care profiles at any time.
+• You can permanently delete all data across your device and synced iCloud storage directly from Settings → Your data → Delete all data.
+• Deleting the app deletes all local on-device database records.
+
+6. DATA SECURITY
+We implement strong technical and organizational measures to safeguard your records. On-device data is encrypted using iOS Data Protection when your device is passcode-protected or locked. When iCloud sync is enabled, data is protected by Apple's secure CloudKit infrastructure.
+
+7. CHILDREN’S PRIVACY
+Medo allows parents or legal guardians to manage medication profiles for children under their care. We do not knowingly collect personal information directly from children under 13 years of age.
+
+8. YOUR RIGHTS
+You have the right to:
+• Access and review all stored medication records and health logs
+• Export your complete data history in standard portable formats (PDF, CSV, JSON)
+• Permanently erase your data at any time via the in-app deletion control
+
+To exercise these rights or ask questions, contact us at: iamsanketray123@gmail.com
+
+9. DO-NOT-TRACK
+Medo does not track users across third-party websites or services and does not participate in tracking networks.
+
+10. POLICY UPDATES
+We may update this Privacy Policy periodically. Continued use of Medo following updates signifies your acceptance of the revised policy.
+
+11. CONTACT
+For questions, privacy inquiries, or support:
+Email: iamsanketray123@gmail.com
+Website: https://getdosey.app
