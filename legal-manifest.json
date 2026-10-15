@@ -1,11 +1,11 @@
 {
   "privacy": {
     "source_property": "privacyPolicy",
-    "sha256": "3b55647d5c7c66fbbcdf164a2a9d74671e1aad50ed7450900bac3a6c0c3957e8"
+    "sha256": "a7c7e83ffb88f6faecc4f0d557f5b41670a05b714c0da75a9baf5bfaf48c9a06"
   },
   "terms": {
     "source_property": "termsAndConditions",
-    "sha256": "46222bd6e44f7bc9cfc5f41977d3b2b0098a3ee9e45f619179e44e575c56e485"
+    "sha256": "b99a2095e9f075f516e22e4a582dbf4ad0e099c6870c0631fdf8ea8200e1d7e2"
   },
   "billing": {
     "source_property": "billingTerms",
