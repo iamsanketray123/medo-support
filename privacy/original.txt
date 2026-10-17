@@ -1,5 +1,5 @@
 PRIVACY POLICY
-Last updated: September 2026
+Last updated: 17 October 2026
 
 Thank you for choosing Medo ("we", "us", or "our"). Your privacy is fundamental to our mission. Medo is designed to help you track medications, manage treatments, and coordinate family care while keeping your personal and health records private and secure.
 
@@ -11,7 +11,7 @@ We prioritize on-device data storage and data minimization. We collect only the 
 Information You Provide
 • Medications, prescription details, dosages, and schedules
 • Dose logs (taken, skipped, snoozed), symptoms, and health journal notes
-• Care profile names, avatars, and caregiver contact details
+• Care profile names, avatars, caregiver contact details, and photos or attachments you choose to save
 • Custom reminder settings, quiet hours, and notification preferences
 
 Automatically Collected Information
@@ -25,9 +25,7 @@ This technical information does not directly identify you and is not linked to y
 App Permissions
 We may request access to certain device capabilities:
 • Notifications & Critical Alerts: To alert you when it is time to take your scheduled medications.
-• Apple Health (HealthKit): If enabled by you, to synchronize medication doses and health measurements. Health data remains on your device and inside Apple Health.
-• Camera: If you use the medication label or prescription scanner, images are processed locally on-device to read text. Images are never uploaded.
-• Face ID / Touch ID: To protect access to your medication records if biometric lock is enabled.
+• Camera: Scan a medicine label or prescription to recognize text on your device. Saved photos may sync through iCloud when enabled.
 
 You can review and modify app permissions at any time in your device Settings.
 
@@ -35,7 +33,6 @@ We do NOT collect:
 • Third-party advertising identifiers (IDFA)
 • Data from third-party data brokers or marketing partners
 • Precise GPS location or location tracking data
-• Photos or videos outside of on-device label parsing
 
 2. THIRD-PARTY SERVICES & PLATFORM INTEGRATIONS
 Medo does not use third-party advertising trackers and does not record your screen. Platform integrations include the services described below:
@@ -44,22 +41,25 @@ Usage Analytics (PostHog)
 Medo uses PostHog to understand which features are used and where the app fails, so we can improve it. Events are anonymous (a random install identifier, not your name or Apple ID) and describe actions such as “dose logged”, “schedule created” or “purchase completed” together with non-identifying context like medication form, hour of day and app version. They never include medication names, dosages, health values, notes, care-recipient names or caregiver contact details. Session recording and screen capture are disabled. You can turn usage analytics off at any time in Settings → Data, Sync & Privacy; the switch takes effect immediately.
 
 Firebase (Google)
-Medo uses Firebase Cloud Functions with Firebase App Check to verify that network requests originate from a genuine copy of the app. Firebase receives an app-integrity token and a random per-install identifier; it does not receive your identity or your health records.
+Firebase App Check verifies requests from the app. Cloud-assisted scanning sends minimized recognized text and a random per-install identifier to Firebase Cloud Functions, which forward the text to Google Gemini for extraction. This text may contain medicine, prescription, or prescriber information. Scan photos are not included in these extraction requests.
+
+Medication Autocomplete (NIH/NLM RxTerms)
+Medicine-name searches send the text you enter, or a shorter search prefix, to the U.S. National Library of Medicine's RxTerms service (clinicaltables.nlm.nih.gov) for names, strengths, and forms. Medo does not add care-profile details or dose history to these requests.
 
 Medication Reference Lookups (openFDA)
-When you add a medicine, Medo may look up the typed medication name against the U.S. FDA’s public openFDA database to suggest active ingredients and safety information. Only the medication name you typed is sent; no profile, dose history or device identifier accompanies it.
+Medicine reference searches may send a medicine name, ingredient, or RxNorm identifier to the U.S. FDA's openFDA service to retrieve official labeling. Medo does not add care-profile details or dose history to these requests.
 
 Apple App Store & StoreKit
 In-app purchases and Medo Pro subscriptions are processed securely by Apple. Medo receives only transaction confirmation and entitlement status; we never receive or store your payment card details. Apple's privacy policy is available at apple.com/legal/privacy.
 
+Purchase Management (RevenueCat)
+Medo uses RevenueCat to validate purchases, restore access, and manage Medo Pro entitlements. RevenueCat processes purchase history, transaction or receipt information, and an app-specific identifier. Apple processes payments; Medo and RevenueCat do not receive your payment card details.
+
 Apple iCloud (CloudKit)
-If you enable iCloud Sync, your medication records, treatments, and profiles are stored in your personal, private iCloud database. Data is encrypted in transit and at rest by Apple. We do not have access to your private iCloud container or encryption keys.
+If you enable iCloud Sync, your saved medication records, treatments, profiles, health journal entries, photos, and attachments can be stored in your private iCloud database. Apple encrypts data in transit and at rest.
 
-Apple HealthKit
-If you grant permission, Medo communicates directly with HealthKit on your device. Medo does not transmit HealthKit data to external servers or third parties.
-
-On-Device Machine Learning
-When scanning medication labels or pill bottles, optical character recognition runs on-device using Apple's Vision framework. The scan image remains on the device and is never uploaded.
+Scanning and Saved Images
+Initial text recognition (OCR) happens on your device. Scan photos are not sent to the cloud extraction service, but photos and attachments you save may sync through iCloud or appear in backups when media is included. Identifier filtering of recognized text does not guarantee anonymization. Review scanner results before saving; scanning does not create reminder times.
 
 3. HOW WE USE YOUR INFORMATION
 We use collected data solely to:
